@@ -1,14 +1,3 @@
-//////////////////////////////////////////////////
-//////////////////////////////////////////////////
-//////////////////////////////////////////////////
-
-General Idea
-There is a lot of data to be displayed when it comes to searching for the right flight - different prices depending on the day, time of day, and flight options (i.e. non-stop, first class, etc.). Our website will assist users by displaying flight data in a more digestible, intuitive way, as well as store users preferences/search and flight history
-
-//////////////////////////////////////////////////
-//////////////////////////////////////////////////
-//////////////////////////////////////////////////
-
 Project Milestone 1
 
 What is the proposed name for your Web application? (Make your GitHub repository name similar to your project name.)
@@ -28,4 +17,14 @@ How will it meet the minimum project requirements?
 Why is your proposed Web application unique or creative beyond simply meeting the minimum requirements?
 - it would be extremely beneficial for airline consumers to have a tool to easily and intuitively visualize flight data and save their personal preferences 
 
-Post your repository's URL on Piazza as a reply in the "Project GitHub URLs" thread, so that the staff can see everyone's URLs in one place. Do not start a new thread, since we will lose track of your URL.
+
+//////////////////////////////////////////////////
+//////////////////////////////////////////////////
+//////////////////////////////////////////////////
+
+General Idea
+There is a lot of data to be displayed when it comes to searching for the right flight - different prices depending on the day, time of day, and flight options (i.e. non-stop, first class, etc.). Our website will assist users by displaying flight data in a more digestible, intuitive way, as well as store users preferences/search and flight history
+
+//////////////////////////////////////////////////
+//////////////////////////////////////////////////
+//////////////////////////////////////////////////
