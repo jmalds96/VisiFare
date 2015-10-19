@@ -9,56 +9,13 @@ There is a lot of data to be displayed when it comes to searching for the right 
 //////////////////////////////////////////////////
 //////////////////////////////////////////////////
 
-Project Milestone 1 due at 11:59pm on October 20
-
-By this milestone, you need to turn in a project proposal on GitHub. Your project's details will likely change throughout the semester, but it's important to have some starting point. Your proposal must address these questions:
+Project Milestone 1
 
 What is the proposed name for your Web application? (Make your GitHub repository name similar to your project name.)
 - FlightSee / VisAir / VisiFare
 
 Who is the target audience for your Web application?
 - Anyone who is price conscious when purchasing an airline ticket 
-
-[Optional stretch goal: Identify a target audience that none of your group members belong to. This will make your project more unique than a Web app for college students.]
-What problem is it intended to solve for that audience?
-
-
-//////////////////////////////////////////////////
-//////////////////////////////////////////////////
-//////////////////////////////////////////////////
-
-
-MINIMUM PROJECT REQUIREMENTS
-At minimum, you must create a CRUD Web application (sorry for the unsavory name!) that supports Web 2.0-style Ajax interactions, using the concepts from Lectures 1 to 7.
-
-In other words, your Web app must:
-
-allow users to create accounts and add new persistent data
-read data from the server and present it on a webpage
-allow users to update their existing data
-allow users to delete their own data and accounts
-do all of the above without reloading the webpage (Ajax)
-Instead of Ajax, you can also use WebSockets.
-Piazza, Gmail, and Facebook are all examples of such CRUD apps, though yours obviously won't need to be so sophisticated.
-
-In contrast, a static personal website or even a dynamic weather-lookup app would not meet our requirements, since those are read-only. There is no way for a user to create an account or to update their personal data.
-
-In the spirit of creative freedom, you are free to use any programming languages, libraries, or frameworks that you like. However, if you would like to get help from your TA, please ask them what tools they are most familiar with, so that you can get the best help from them.
-
-Here are a few high-level rules:
-
-Your Web app must work properly when viewed in a modern Web browser without installing any plug-ins or extensions. This means no Flash, no Silverlight, no Java, etc. It also means that your client-side code must be some form of HTML/CSS/JavaScript. (But you can write code in other languages that compile into HTML/CSS/JavaScript.)
-
-All of your project's code must be publicly hosted on GitHub.
-
-Your team must be able to demo the project in-person to your TA for grading and allow your TA to use your Web app, either on your own computer or online. (You don't actually need to deploy online if that's too much trouble to set up.)
-
-Your project must not contain offensive content or otherwise be in bad taste. We know that “taste” is inherently subjective and context-dependent, but you must trust the staff's judgment. Our goal is not to stifle your creativity, but rather to ensure a safe and inclusive environment for your classmates. An appropriate project is something that could be shown in a PG-rated movie, and that you would feel comfortable showing off at a big family reunion.
-
-
-//////////////////////////////////////////////////
-//////////////////////////////////////////////////
-//////////////////////////////////////////////////
 
 How will it meet the minimum project requirements?
 
@@ -71,13 +28,4 @@ How will it meet the minimum project requirements?
 Why is your proposed Web application unique or creative beyond simply meeting the minimum requirements?
 - it would be extremely beneficial for airline consumers to have a tool to easily and intuitively visualize flight data and save their personal preferences 
 
-There isn't a length requirement for the proposal, but make sure it clearly answers the above questions in enough detail so that the staff can assess whether your project is appropriate for the class.
-
-The staff will be available on Piazza and in office hours to answer your questions about project proposals and to work with you to refine your ideas.
-
-How to submit: Create a new free public repository on GitHub and put your proposal document into the repository with the (exact!) filename csc210-proposal.md if you want to use Markdown, or csc210-proposal.txt if you want to write in plain text. Make sure this file is visible from the Web interface. The latest commit timestamp on this file must be on or before 11:59pm on October 20 (U.S. Eastern Time). Then, very importantly:
-
 Post your repository's URL on Piazza as a reply in the "Project GitHub URLs" thread, so that the staff can see everyone's URLs in one place. Do not start a new thread, since we will lose track of your URL.
-
-If we think your proposal needs to be amended, then we will give you feedback by October 25.
-
