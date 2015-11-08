@@ -1,0 +1,54 @@
+
+<template name="register">
+    <h2>Register</h2>
+    <form class="register">
+        <p>Name: <input name="name" required></p>
+        <p>Email: <input type="email" name="email" required></p>
+        <p>Password: <input type="password" name="password" required></p>
+        <p><input type="submit" value="Register"></p>
+    </form>
+</template>
+<template name="login">
+    <h2>Login</h2>
+    <form class="login">
+        <p>Email: <input type="email" name="email" required></p>
+        <p>Password: <input type="password" name="password" required></p>
+        <p><input type="submit" value="Login"></p>
+    </form>
+</template>
+<template name="home">
+    <h2>Welcome to VisiFare!</h2>
+</template>
+<template name="main">
+    <h1>VisiFare</h1>
+    <img src="../airplane.jpg" width="100%"/>
+    {{> navigation}}
+    {{> yield}}
+    <hr />
+    <p>Copyright &copy; VisiFare, 2015.</p>
+</template>
+<template name="navigation">
+    <ul>
+        <li><a href="{{pathFor route='home'}}">Home</a></li>
+        {{#if currentUser}}
+            <li id="myFares"><a id="myFaresLink">My Fares</a></li>
+            <li><a href="#" class="logout">Logout</a></li>
+        {{else}}
+            <li><a href="{{pathFor route='register'}}">Register</a></li>
+            <li><a href="{{pathFor route='login'}}">Login</a></li>
+        {{/if}}
+    </ul>
+</template>
+<template name="loading">
+    <p>Loading...</p>
+</template>
+<!--<template name="account">-->
+    <!--<h2>Account</h2>-->
+    <!--<form class="account">-->
+        <!--<p>Name: <input type="name" name="name" required></p>-->
+        <!--<p><input type="submit" value="Submit"></p>-->
+    <!--</form>-->
+<!--</template>-->
+<template name="usersPage">
+    <h2>Name: {{name}}</h2>
+</template>
